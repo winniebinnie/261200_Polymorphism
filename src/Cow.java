@@ -1,5 +1,5 @@
 public class Cow extends Animal {
-    void sound() {
+    public void sound() {
         System.out.println("Cow goes 'mooooo'");
     }   
 }

@@ -1,5 +1,5 @@
 public abstract class Animal {
-    void sound() {
+    public void sound() {
         System.out.println("Animal goes 'brrrrr'");
     }
 }
