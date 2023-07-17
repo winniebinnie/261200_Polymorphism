@@ -1,5 +1,6 @@
 public class PekingDuck extends Duck {
-    public void clean()
+    @Override
+    public void clean(Animal animal)
     {
         System.out.println("I cannont clean. I died already");
     }
